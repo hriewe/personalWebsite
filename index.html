@@ -5,18 +5,108 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Ayush Petigara">
-
-    
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/master.css">
-
+    <link rel="stylesheet" href="css/main.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- New Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <title>Hayden Riewe</title>
   </head>
   <body>
 
+    <!-- Nav Bar -->
+    <nav class="navbar fixed-top navbar-light">
+        <a class="navbar-brand" href="#">HR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experiences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#connect">Connect</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- Background Image -->
+    <section id="top">
+        <img src="img/bg-1.jpg" alt="background-img" class="img-bg">
+        <div class="name">
+          <p>Hayden Riewe</p>
+        </div>
+    </section>
+
+    <!-- About me section -->
+    <section class="jumbotron-fluid about" id="about">
+      <div class=" container info">
+        <div class="row">
+          <div class="col">
+            <p class="me">About Me</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-10 col-lg-8 col-sm-6 col-md-8">
+            <p class="bio">My name is Hayden Riewe. I am a junior studying Computer Science at Clemson University. </p>
+          </div>
+          <div class="col-2 col-xl-2 col-md-2 col-sm-2 profile-pic">
+              <img src="img/profilepic.jpg" alt="profile pic" height="200" width="200">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work expriences section -->
+    <section class="jumbotron-fluid work-exp" id="experience">
+      <div class="container wk-info text-right">
+        <p class="me">Work Experiences</p>
+
+        <div class="card-deck justify-content-center">
+          <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">UpState Karate</div>
+            <div class="card-body">
+              <h5 class="card-title">Trainer</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+
+          <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">CSOC Clemson University</div>
+            <div class="card-body">
+              <h5 class="card-title">Security Analyst Intern</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- connect section -->
+    <footer id="connect">
+      <div class="container-fluid text-center contact">
+      	<a target="_blank" href="#" class="fab fa-facebook"></a>
+      	<a target="_blank" href="#" class="fab fa-instagram"></a>
+      	<a target="_blank" href="#" class="fab fa-twitter"></a>
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
