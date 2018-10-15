@@ -39,17 +39,17 @@ body {
 }
 
 .work-exp {
-  background-color: white;
   height: auto;
-  background-color: #696970;
+  background-color: #222;
 }
 
 .wk-info {
-  color: black;
+  color: white;
   padding-top: 5em;
   padding-bottom: 5em;
 }
 .name {
+  font-family: 'Playfair Display', serif;
   position: absolute;
   top: 40%;
   left: 51%;
@@ -60,7 +60,7 @@ body {
 }
 
 footer {
-  background-color: #222;
+  background-color: black;
   height: 6em;
 }
 .contact {
@@ -95,7 +95,7 @@ footer {
     width: 80%;
     margin: center;
     text-align: center;
-    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-width: 1px;
   }
   .nav-link {
     font-size: .8rem;
@@ -125,7 +125,7 @@ footer {
     width: 80%;
     margin: center;
     text-align: center;
-    -webkit-text-stroke-width: 1.7px;
+    -webkit-text-stroke-width: 1.4px;
   }
   .me {
     font-size: 3rem;
@@ -143,12 +143,12 @@ footer {
   }
   .name {
     position: absolute;
-    font-size: 8vw;
+    font-size: 7.5vw;
     top: 42%;
     width: 65%;
     margin: center;
     text-align: center;
-    -webkit-text-stroke-width: 2.3px;
+    -webkit-text-stroke-width: 1.7px;
   }
   .me {
     font-size: 4rem;
