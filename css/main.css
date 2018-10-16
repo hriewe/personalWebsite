@@ -54,9 +54,9 @@ body {
   top: 40%;
   left: 51%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: black;
   -webkit-text-fill-color: white;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: black;
 }
 
 footer {
