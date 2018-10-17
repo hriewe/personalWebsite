@@ -38,6 +38,24 @@ body {
   padding-bottom: 5em;
 }
 
+.skills{
+  height: auto;
+  background-color: #222;
+}
+.skills-info {
+  color: white;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.projects {
+  height: auto;
+  background-color: black;
+}
+.project-info {
+  color: white;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
 .work-exp {
   height: auto;
   background-color: #222;
