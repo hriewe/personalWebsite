@@ -1,2 +1,2 @@
 # Personal Website
-http://hrcyber.tech
+Check it out [here](http://hrcyber.tech)
