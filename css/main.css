@@ -76,9 +76,12 @@ body {
   -webkit-text-fill-color: white;
   -webkit-text-stroke-color: black;
 }
+#awards {
+  background-color: black;
+}
 
 footer {
-  background-color: black;
+  background-color: #222;
   height: 6em;
 }
 .contact {
